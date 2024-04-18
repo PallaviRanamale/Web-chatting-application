@@ -14,7 +14,8 @@ root.render(
             <App />
             </ChakraProvider>
         </ChatProvider>
-    </BrowserRouter>
+    </BrowserRouter>,
+   // document.getElementById("root")
 // </Router>
 );
 
