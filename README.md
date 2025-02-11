@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NEAR-CHAT
 ## MERN Chat Web App using Socket.io
 
@@ -119,3 +120,6 @@ Follow these steps to get the project up and running on your local machine:
 
 
 
+=======
+# Web-chatting-application
+>>>>>>> a0428097b80828b7d25b99136dce4176352fcde0
