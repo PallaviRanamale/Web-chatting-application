@@ -27,7 +27,7 @@ app.use('/api/message', messageRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3001;
 
 const server = app.listen(PORT, () => {
     console.log(`Server Started on Port ${PORT}`.yellow.bold);
@@ -68,4 +68,5 @@ const io = require('socket.io')(server, {
     });
 });
 
+ 
 
