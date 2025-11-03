@@ -115,7 +115,11 @@ const GroupChatModal = ({children}) =>{
             },
           };
           const { data } = await axios.get(`/api/user?search=${search}`, config);
+<<<<<<< HEAD
           // console.log(data);
+=======
+         // console.log(data);
+>>>>>>> Coding11-12
           setLoading(false);
           setSearchResult(data);
         } catch (error) {

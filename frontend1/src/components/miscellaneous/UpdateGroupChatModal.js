@@ -25,7 +25,11 @@ import UserBadgeItem from '../UserAvatar.js/UserBadgeItem';
 import UserListItem from '../UserAvatar.js/UserListItem';
 import axios from 'axios';
 
+<<<<<<< HEAD
 const UpdateGroupChatModal=({fetchAgain, setFetchAgain, fetchMessages})=>{
+=======
+const UpdateGroupChatModal=({fetchAgain, setFetchAgain,fetchMessages})=>{
+>>>>>>> Coding11-12
 
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [groupChatName, setGroupChatName] = useState();
@@ -68,6 +72,10 @@ const UpdateGroupChatModal=({fetchAgain, setFetchAgain, fetchMessages})=>{
 
         user1._id === user._id ? setSelectedChat() : setSelectedChat(data);
         setFetchAgain(!fetchAgain);
+<<<<<<< HEAD
+=======
+        //fetchMessages();
+>>>>>>> Coding11-12
         fetchMessages();
         setLoading(false);
         } catch (error) {
